@@ -1,5 +1,7 @@
 call plug#begin()
+    Plug 'mhinz/vim-signify'
     Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'chriskempson/base16-vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
